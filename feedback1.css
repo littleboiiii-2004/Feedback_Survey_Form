@@ -1,0 +1,63 @@
+body {
+    background-image: url(f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    
+}
+
+.h1-tag{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px rgb(255, 255, 255);
+    position: relative;
+    left:36%;
+    margin-top: 4%;
+    
+}
+
+.form-group{
+    display:inline-block ;
+    position: relative;
+    left:38%;
+    width: auto;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 3px 2px 2px 2px rgb(217, 56, 56);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+label,input{
+    display:block;
+}
+
+label{
+    font-weight: bold;
+    padding: 5px;
+    font-size: x-large
+}
+textarea{
+    width: 400px;
+    height: 150px;
+}
+
+input{
+    border: none;
+    height: 35px;
+    width: 350px;
+}
+
+.btn{
+    font-size: large;
+    background-color: chocolate;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    left:45%;
+    top:80%;
+    height:30px
+    
+}
+
+
+

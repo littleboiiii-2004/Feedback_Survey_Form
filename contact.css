@@ -1,0 +1,123 @@
+body{
+    background-image:linear-gradient(rgb(133,40, 133,0.8),rgba(68, 50, 150, 0.8),rgb(44, 157, 168,0.8)), url(contact.webp);
+    background-repeat: no-repeat;
+    background-size:1550px 400px;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.p1{
+    display: inline-block;
+    padding: 0px 30px 0px 30%;
+    color:white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.p2,.p3,.p4,.p5{
+    display: inline-block;
+    padding: 0px 30px 0px 0px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.head{
+    color:white;
+    font-size: 6vw;
+    position: absolute;
+    left:35%;
+    top:25%;
+}
+
+.cs{
+    width: 45%;
+    position: absolute;
+    top:65%
+
+}
+
+.Head1{
+    display: inline;
+    font-size: xx-large;
+    position: relative;
+    left:85%
+}
+
+.Head2{
+    color: rgb(25, 24, 24);
+    font-size: x-large;
+    margin-left: 40px;
+}
+
+.Head3{
+    font-weight: bold;
+    color:  rgb(90, 87, 87);
+    font-size: medium;
+    margin-left: 40px;
+}
+
+.para1,.para2{
+    color: rgb(96, 93, 93);
+    font-size: medium;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(60, 159, 221);
+}
+
+.us{
+
+    position:absolute;
+    top:74%;
+    left:60%
+}
+
+.para3{
+    font-weight: bold;
+    color: rgb(56, 54, 54);;
+}
+
+label{
+    color:rgb(90, 87, 87);
+    font-size: medium;
+    display: block;
+}
+
+input{
+    width: 280px;
+}
+
+.btn1{
+    position: absolute;
+    left: 80%;
+    top:3.5%;
+    background-color:  rgb(60, 159, 221);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.btn2{
+    font-size: large;
+    position:absolute;
+    left:60%;
+    top:100%;
+    border: none;
+    background-color:  rgb(60, 159, 221);
+    border-radius: 3px;
+    cursor: pointer;
+    height:30px;
+    width:70px;
+    
+}
+
+img{
+    display: inline;
+    position: absolute;
+    width:6%;
+}

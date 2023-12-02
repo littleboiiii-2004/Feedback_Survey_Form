@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-image: url(gray.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-shadow:2px 2px chocolate;
+    text-align: center;
+}
+.len{
+    display: flex;
+}
+
+.p0,.p1,.p2,.p3,.p4,.p5{
+    padding:0px 124px 0px 0px;
+}
+
+.feedback{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: 850px;
+    padding: 20px;
+    margin-top: 15px;
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(2.5px);
+    box-shadow: 3px 3px 3px 3px coral;
+    margin-left: 410px;
+}   
+
+input[type="radio"]{
+    display: inline;
+    position: relative;
+    right: 48%;
+    bottom: 18px;
+    
+}
+
+label{
+    position: relative;
+    left:30px;
+}
+
+textarea{
+    
+    width: auto;
+    height: 100px;
+}
+
+button{
+    font-size: large;
+    width: 78px;
+    position: relative;
+    left: 81%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: chocolate;
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+}
